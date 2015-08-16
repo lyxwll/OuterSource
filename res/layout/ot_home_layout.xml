@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.fourteen.outersource.view.OtClassifyView
+        android:id="@+id/ot_classify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dip" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ot_vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1.0" />
+
+    <com.fourteen.outersource.view.BottomView
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

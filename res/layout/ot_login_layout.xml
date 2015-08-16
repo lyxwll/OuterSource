@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/login_icon"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:background="@drawable/ot_login_icon"
+            android:contentDescription="@string/image_content"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="25dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ot_login_user"
+                android:contentDescription="@string/image_content" />
+
+            <AutoCompleteTextView
+                android:id="@+id/login_user_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/edittext_selector"
+                android:completionThreshold="2"
+                android:dropDownVerticalOffset="10dip"
+                android:hint="@string/login_user_hint"
+                android:maxLines="1"
+                android:popupBackground="@drawable/login_bg"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearance" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ot_login_password"
+                android:contentDescription="@string/image_content" />
+
+            <EditText
+                android:id="@+id/login_user_password"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/login_user_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/login_save_account"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:layout_weight="1"
+                android:button="@drawable/check_selector"
+                android:text="@string/login_save_account" />
+
+            <TextView
+                android:id="@+id/login_register"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/login_register"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@color/login_register_text_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:text="@string/login_button" />
+
+            <Button
+                android:id="@+id/login_exit"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:text="@string/login_exit" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/login_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:text="@string/login_forget_password" />
+    </LinearLayout>
+
+</LinearLayout>

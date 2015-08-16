@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for file_explorer -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="file_description">file_description</string>
+    <string name="please_input_path">Please input Path</string>
+    <string name="file_operation_options">File Operation Options</string>
+    <string name="dir_operation_options">Dir Operation Options</string>
+    <string name="operation">Operation :</string>
+    <string name="file_not_exists">File not exists!</string>
+    <string name="dir_not_exists">Dir not exists!</string>
+    <string name="delete_file_success">Delete File Success</string>
+    <string name="delete_file_failure">Delete File Failure</string>
+    <string name="delete_dir_success">Delete Dir Success</string>
+    <string name="delete_dir_failure">Delete Dir Failure</string>
+    <string name="file_delete_error">File Can\'t Write, Delete Failure</string>
+    <string name="dir_delete_error">Dir Can\'t Write, Delete Failure</string>
+    <string name="option_rename">Rename :</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="same_file_name">Same File Name</string>
+    <string name="please_input_correct_filename">Please Input Correct File Name</string>
+    <string name="rename_file_success">Rename File Success</string>
+    <string name="rename_file_failure">Rename File Failure</string>
+    <string name="file_upload_progressdialog">文件上传进度条</string>
+
+    <string-array name="dir_option">
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Copy</item>
+        <item>Cut</item>
+    </string-array>
+    <string-array name="file_option_with_upload_dir">
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Copy</item>
+        <item>Cut</item>
+        <item>FileUpload</item>
+    </string-array>
+    
+    <string-array name="file_option">
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Copy</item>
+        <item>Cut</item>
+    </string-array>
+
+    <string name="new_dir">New Directory</string>
+    <string name="new_file">New File</string>
+    <string name="create_new_file_error">Can\'t Create New File, Without Permission</string>
+    <string name="paste">Paste</string>
+    <string name="cannot_open_file">Can\'t find application to open this file</string>
+    <string name="file">File</string>
+    <string name="dir">Dir</string>
+    <string name="exit_notify">Press Back again will exit!</string>
+    <!-- for file_explorer -->
+
+    <string name="app_name">OuterSource</string>
+    <string name="image_content">image</string>
+    <!-- HeaderView -->
+    <string name="back">返回</string>
+    <string name="sure">确定</string>
+    <string name="network_unreachable">当前网络不可用，请检查网络设置</string>
+    <string name="settings_not_exists">系统错误，程序设置不存在</string>
+    <string name="setting_ok">确定</string>
+    <!-- HeaderView -->
+
+
+    <!-- for switch -->
+    <string name="capital_on">ON</string>
+    <string name="capital_off">OFF</string>
+    <string name="switch_on">ON</string>
+    <string name="switch_off">OFF</string>
+    <!-- for switch -->
+
+
+    <!-- xlistview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_nomore">无更多数据</string>
+    <!-- xlistview -->
+    
+    <!-- lmListView -->
+    <string name="lmlistview_header_hint_normal">下拉加载上一页</string>
+    <string name="lmlistview_header_hint_ready">松开加载上一页</string>
+    <string name="lmlistview_header_hint_loading">正在加载上一页</string>
+    <string name="lmlistview_header_hint_first">当前已是第一页</string>
+    <string name="lmlistview_footer_hint_normal">查看下一页</string>
+    <string name="lmlistview_footer_hint_ready">松开载入下一页</string>
+    <string name="lmlistview_footer_hint_nomore">无更多数据</string>
+    <!-- lmListView -->
+
+
+    <!-- zxing -->
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="scan_cancel">Cancel</string>
+    <!-- zxing -->
+
+
+    <!-- for crop image -->
+    <string name="crop_save">Save</string>
+    <string name="crop_cancel">Cancel</string>
+    <string name="image_upload">图片上传</string>
+
+    <string-array name="image_upload_method">
+        <item>从相册中挑选</item>
+        <item>用相机拍摄</item>
+    </string-array>
+    <!-- for crop image -->
+
+
+    <!-- for login activity -->
+    <string name="login_user_hint">用户名</string>
+    <string name="login_user_password">密码</string>
+    <string name="login_save_account">记住密码</string>
+    <string name="login_register">注册新账户</string>
+    <string name="login_button">登录</string>
+    <string name="login_exit">退出</string>
+    <string name="login_title">欢迎来到OTS</string>
+    <string name="login_input_username">请输入用户名</string>
+    <string name="login_input_userpassword">请输入密码</string>
+    <string name="login_notify">提示</string>
+    <string name="login_falure">身份验证失败</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="unlock_account">解锁帐号</string>
+    <string name="unlock_account_success">解锁帐号成功</string>
+    <string name="unlock_account_failure">解锁帐号失败</string>
+    <!-- for login activity -->
+
+
+    <!-- for register -->
+    <string name="register_title">注册OTS</string>
+    <string name="register_done">完成注册</string>
+    <string name="register_next">完善资料</string>
+    <string name="register_notify">请填写注册信息</string>
+    <string name="register_name_length">用户名长度不在6&#8211;12个字符之间</string>
+    <string name="register_name_available">当前用户名可用</string>
+    <string name="register_name_unavailable">当前用户名已被注册过了</string>
+    <string name="register_name_There_are">用户名存在</string>
+    <string name="register_name_unThere_are">用户名不存在</string>
+    <string name="register_email_available">邮箱可用</string>
+    <string name="register_email_unavailable">邮箱已被注册过</string>
+    <string name="register_email_not">这不是一个邮箱,请换一个邮箱</string>
+    <string name="register_repeat_password">重复密码</string>
+    <string name="register_email_hint">输入邮箱</string>
+    <string name="register_passowrd_length">密码长度不在6&#8211;12个字符之间</string>
+    <string name="register_password_notsame">两次密码不一样</string>
+    <string name="register_success">注册成功!</string>
+    <string name="register_check_failure">信息不完整,请填写完整的注册信息</string>
+    <string name="register_failure">注册失败</string>
+    <!-- for register -->
+
+
+    <!-- for register step two -->
+    <string name="register_step_two_notify">请填写个人信息</string>
+    <string name="register_gender">性        别:</string>
+    <string name="man">男性</string>
+    <string name="women">女性</string>
+    <string name="register_birthday">出生日期:</string>
+    <string name="choice_birthday">选择出生日期:</string>
+    <string name="register_address">现居住地:</string>
+    <string name="register_phone">联系电话:</string>
+    <string name="previous">上一步</string>
+    <string name="next">下一步</string>
+    <string name="address_edit">请输入地址信息:</string>
+    <string name="phone_edit">请输入联系电话:</string>
+    <string name="change_user_info_success">用户资料已保存</string>
+    <string name="Is_the_latest_version">已是最新版本</string>
+    <string name="change_user_info_failure">用户资料保存失败</string>
+
+    <!-- for register step four -->
+    <string name="register_step_four_notify">请上传头像信息</string>
+    <string name="register_image">头像图片</string>
+    <string name="register_choice_image">选择图片</string>
+    <string name="register_upload_image">上传图片</string>
+    <string name="register_upload_header_success">头像已保存</string>
+    <string name="register_upload_header_faliure">上传头像失败</string>
+    <string name="register_nochoose_icon">您还未选择图片，请点击头像选择图片</string>
+    <!-- for register step four -->
+
+
+    <!-- for choose address -->
+    <string name="choose_address_title">请选择地址</string>
+    <string name="choose_province">请选择省份</string>
+    <string name="choose_city">请选择城市</string>
+    <string name="choose_county">请选择区县</string>
+    <string name="choose_town">请选择乡镇</string>
+    <!-- for choose address -->
+
+
+    <!-- for register step three -->
+    <string name="register_three_notify">请填写密保问题</string>
+    <string name="register_question1">密保问题1</string>
+    <string name="register_question2">密保问题2</string>
+    <string name="register_question3">密保问题3</string>
+    <string name="register_answer1">密保答案1</string>
+    <string name="register_answer2">密保答案2</string>
+    <string name="register_answer3">密保答案3</string>
+    <string name="register_secret_done">完成</string>
+    <string name="register_question1_notify">请选择密保问题1</string>
+    <string name="register_question2_notify">请选择密保问题2</string>
+    <string name="register_question3_notify">请选择密保问题3</string>
+    <string name="register_answer1_notify">密保答案1不能为空，长度需在6&#8211;12个字符之间</string>
+    <string name="register_answer2_notify">密保答案2不能为空，长度需在6&#8211;12个字符之间</string>
+    <string name="register_answer3_notify">密保答案3不能为空，长度需在6&#8211;12个字符之间</string>
+    <string name="register_change_secret_failure">更改用户密保失败</string>
+    <string name="register_change_secret_success">密保已成功保存</string>
+    <!-- for register step three -->
+
+
+    <!-- for personal center -->
+
+    <string name="ps_find_password">用户密码找回</string>
+    <string name="setting_new_password">设置新密码</string>
+    <string name="user_name">用   户   名</string>
+    <string name="find_password_back">返    回</string>
+    <string name="find_password_next">下一步</string>
+    <string name="find_password_by_username">找回密码</string>
+    <string name="login_input_new_password">请输入新密码</string>
+    <string name="modify_headimage">修改头像</string>
+    <string name="my_task">我的任务</string>
+    <string name="my_order">我的订单</string>
+    <string name="my_account">我的账户</string>
+    <string name="modify_information">修改资料</string>
+    <string name="modify_password">修改密码</string>
+    <string name="modify_question">修改密保问题</string>
+    <string name="email_verify">邮箱验证</string>
+    <string name="feedback_about">意见反馈</string>
+    <string name="about">关于OTS</string>
+    <string name="recommend">推荐</string>
+    <string name="exit">退出应用</string>
+    <string name="unsubscribe">注销账户</string>
+    <string name="user_home">个人信息</string>
+    <string name="password">旧   密   码</string>
+    <string name="new_password">新   密   码</string>
+    <string name="repeat_new_password">重复新密码</string>
+    <string name="please_input_password">请输入旧密码:</string>
+    <string name="input_new_password">请输入新密码:</string>
+    <string name="unsubscribe_success">注销成功,应用将退出</string>
+    <string name="gain_succeed">获取成功</string>
+    <string name="unsubscribe_failure">注销失败</string>
+    <string name="repeat_password">重复密码</string>
+    <string name="input_repeat_password">请输入重复新密码:</string>
+    <string name="complete_modify">完成修改</string>
+    <string name="old_password_error">旧密码错误</string>
+    <string name="new_password_not">新密码长度不在6&#8211;12个字符之间</string>
+    <string name="repeat_new_password_notsame">重复新密码不一样</string>
+    <string name="user_password">密          码</string>
+    <string name="user_password1">密  码</string>
+    <string name="login_input_username1">请输入密码</string>
+    <string name="modify_password_success">修改密码成功</string>
+    <string name="modify_password_notify">新旧密码为空,或者两次密码不想等</string>
+    <string name="modify_password_failure">修改密码不成功</string>
+    <string name="modify_Information">修改资料信息</string>
+    <string name="input_suggestion">请输入10到200字以内的反馈意见信息</string>
+    <string name="input_unsubscribe">温馨提示:注销账户后,账户将锁定,必须解锁后才可以登录</string>
+    <string name="input_unlock">温馨提示:解锁账户后,用户才可以使用解锁的账户登录</string>
+    <string name="input_suggestion_less">请至少输入10个字</string>
+    <string name="proposed_feedback_notify"><![CDATA[<html><body>您还可以输入<font color=\"red\">%1$s</font>字</body><ml>]]></string>
+    <string name="commit_success">提交成功</string>
+    <string name="commit_failure">提交失败</string>
+    <string name="commit_suggestion">提交建议</string>
+    <string name="confirm_unsubscribe">注销账户</string>
+    <string name="version_update">版本更新</string>
+    <string name="new_version">已是最新版本</string>
+    <string name="new_version_found">发现新版本</string>
+    <string name="not_version_update">找不到版本</string>
+    <string name="functions">功能介绍</string>
+    <string name="service_phone1">客服电话:    4536547896</string>
+    <string name="service_phone2">客服电话:    6589452321</string>
+    <string name="service_phone3">客服电话:    5698745230</string>
+    <string name="official_website1">官方网站: www.csdn.net</string>
+    <string name="official_website2">官方网站: www.baidu.com</string>
+    <string name="official_website3">官方网站: www.outersource.com</string>
+
+    <!-- for home activity -->
+    <string name="home_opt">个人中心</string>
+    <!-- for home activity -->
+
+
+    <!-- for home page activity -->
+    <string name="textView1">找项目</string>
+    <string name="textView2">推荐大师</string>
+    <string name="ot_homepage">我的任务</string>
+    <string name="ot_homepage_gogo">我的项目</string>
+    <string name="ot_homepage_call_for_expertise">发布需求</string>
+    <string name="ot_homepage_my_skill">我的技能</string>
+    <string name="ot_textview_one">Java大师</string>
+    <string name="ot_textview_two">C语言大师</string>
+    <string name="ot_textview_three">C++大师</string>
+    <string name="ot_textview_frou">IOS大师</string>
+    <string name="ot_textview_five">Andorid大师</string>
+    <string name="ot_textview_six">.Net大师</string>
+    <string name="ot_textview_seven">PHP大师</string>
+    <string name="ot_textview_eight">UI大师</string>
+    <!-- for home page activity -->
+
+
+    <!-- for modify user info -->
+    <string name="modify_user_info_title">修改个人资料</string>
+    <!-- for modify user info -->
+
+
+    <!-- for verify email -->
+    <string name="send_email_success">邮件发送成功</string>
+    <string name="send_email_title">一封验证邮件已成功发送到您注册的地址！</string>
+    <string name="send_email_fail">邮件发送失败</string>
+    <string name="send_email_fail_info">由于网络原因，邮件暂时未能成功发送到您的邮箱，请选择等会或者重新发送验证邮件!</string>
+    <string name="re_send_email">重新发送</string>
+    <string name="check_email_now">立即查看</string>
+    <string name="check_email_cancel">取消</string>
+    <string name="verify_email_header">邮箱验证</string>
+    <string name="verify_email_title">您的邮箱地址是</string>
+    <string name="verify_email_notify">邮箱验证须知：邮箱验证时为了更好的为您提供更优质的服务，只有通过验证了邮箱的账户才能够享受到上传项目，和接项目服务。</string>
+    <string name="verify_email_now">马上验证邮箱</string>
+    <!-- for verify email -->
+
+
+    <!-- 个人技能 -->
+    <string name="user_skill_title">我的技能</string>
+    <string name="user_add_skill">添加技能</string>
+    <string name="user_skill_title_name">名称</string>
+    <string name="user_skill_title_addtime">添加时间</string>
+    <string name="user_skill_title_examtime">考试时间</string>
+    <string name="user_skill_title_score">分数</string>
+    <string name="user_skill_title_grade">合格</string>
+    <string name="user_skill_no_exam">未考试</string>
+    <string name="user_pass_the_skill">您已通过此项技能测试，不需要再次进行测试</string>
+    <string name="skill_notify">您还未选择任何技能，点击添加技能按钮，添加技能</string>
+    <!-- 个人技能 -->
+
+
+    <!-- 个人技能剩下的可用的考试 -->
+    <string name="left_exam_title"><![CDATA[<html><body>以下是 <font color=\"red\">%1$s</font>项目的可用考试</body><ml>]]></string>
+    <string name="skill_testing">技能测试</string>
+    <string name="left_title_name">考试名称</string>
+    <string name="left_title_score">考试总分</string>
+    <string name="left_title_time">考试时长</string>
+    <string name="exam_time_unit">秒</string>
+    <string name="exam_left_notify">当前无可用的考试，或您已考完了此技能的所有考试， 若您还想继续验证此项技能，请等待下次组织考试，考试时间请关注系统通知</string>
+    <!-- 个人技能剩下的可用的考试 -->
+
+
+    <!-- 考试界面 -->
+    <string name="last_question">上一题</string>
+    <string name="next_question">下一题</string>
+    <string name="it_is_first_question">已经是第一题了！</string>
+    <string name="no_more_question">已经是最后一题了!</string>
+    <string name="submit_exam">提交试卷</string>
+    <string name="time_left">距离考试结束还有:</string>
+    <string name="hours">小时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="examing_warnning">警告！！！</string>
+    <string name="no_end_notify">考试还未结束，是否需要现在提交试卷?</string>
+    <string name="maintain_exam">继续测试</string>
+    <string name="time_for_upload">考试时间结束，试卷将自动提交</string>
+    <string name="your_sum_score_title">考试成绩</string>
+    <string name="your_sum_score">您的分数为：</string>
+    <!-- 考试界面 -->
+
+
+    <!-- 选择题碎片 -->
+    <string name="choice_title">第一题：选择题</string>
+    <!-- 选择题碎片 -->
+
+
+    <!-- 判断题碎片 -->
+    <string name="judge_title">第二题：判断题</string>
+    <string name="judge_true">正确</string>
+    <string name="judge_false">错误</string>
+    <!-- 判断题碎片 -->
+
+
+    <!-- 填空题碎片 -->
+    <string name="blank_title">第三题:填空题</string>
+    <string name="please_input_answer">请将答案填写到下面的答案框中</string>
+    <string name="please_input_answer_here">请在此处填写答案</string>
+    <!-- 填空题碎片 -->
+
+
+    <!-- 程序结果题碎片 -->
+    <string name="program_result_title">第四题：填写程序执行结果</string>
+    <!-- 程序结果题碎片 -->
+
+
+    <!-- 程序设计题碎片 -->
+    <string name="program_title">第五题：程序设计题</string>
+    <!-- 程序设计题碎片 -->
+
+
+    <!-- find password -->
+    <string name="user_name_empty">用户名不能为空</string>
+    <string name="user_not_exists">用户不存在</string>
+    <string name="verify_secret_success">密保验证通过</string>
+    <string name="verify_secret_failure">密保问题错误，请重试</string>
+    <string name="password_finded">密码已重置，请记住您的新密码</string>
+    <string name="password_not_find">密码重置失败</string>
+    <!-- find password -->
+
+
+    <!-- ot_pro_upload_project.xml  -->
+    <string name="ot_project_related">项目相关</string>
+    <string name="ot_open_project">打开项目</string>
+    <string name="ot_upload_the_project">上传文档</string>
+    <string name="ot_filename">文件名称</string>
+    <string name="ot_file_parentdir">父目录</string>
+    <string name="ot_file_parentsdir">文件父目录</string>
+    <string name="ot_file_category">文件类型</string>
+    <string name="ot_file_size">文件大小</string>
+    <string name="ot_is_dir_or_not">是否目录</string>
+    <string name="ot_file_upload_faliure">文件上传失败</string>
+    <!-- ot_pro_upload_project.xml  -->
+    
+    <!-- 用户发布项目 -->
+    <string name="user_project_publish">用户发布项目</string>
+    <string name="category_id">项目类别:</string>
+    <string name="choice_category_id">选择项目类别</string>
+    <string name="pro_name">项目名称:</string>
+    <string name="input_pro_name">输入项目名称</string>
+    <string name="pro_price">项目价格:</string>
+    <string name="input_pro_price">输入项目价格</string>
+    <string name="pro_desc">项目描述:</string>
+    <string name="inputpro_desc">输入项目的详细功能描述</string>
+    <string name="pro_start_time">项目开始时间</string>
+    <string name="funtion_introduce">功能介绍</string>
+    <string name="from_to">到</string>
+    <string name="pro_end_time">项目结束时间</string>
+    <string name="publish_project">发布项目</string>
+    <string name="pro_name_cannot_null">项目名称不能为空</string>
+    <string name="pro_price_cannot_null">项目价格不能为空</string>
+    <string name="pro_desc_cannot_null">项目描述不能为空或少于50字</string>
+    <string name="publish_success">发布项目成功</string>
+    <string name="publish_failure">发布项目失败</string>
+    <!-- 用户发布项目 -->
+
+    <!-- 我的项目 -->
+    <string name="my_projects">我的项目</string>
+    <string name="show_category">ALL</string>
+    <string name="start_time">开始时间:</string>
+    <string name="end_time">结束时间:</string>
+    <string name="price_unit">元</string>
+    <string name="apply_model">ApplyUserID:</string>
+    <string name="pro_gress">项目完成总进度:</string>
+    <string name="progress_unit">%</string>
+    <!-- 我的项目 -->
+    
+    <!-- 我的任务 -->
+	<string name="pro_model_start">2015-01-10</string>    
+	<string name="pro_model_end">2015-01-10</string>    
+	<string name="pro_model_fee">256455</string>    
+	<string name="progress">10</string>    
+	<string name="ot_progress">项目模块完成进度</string>    
+	<string name="model_weight">10</string>    
+	<string name="ot_model_weight">项目模块比重</string>  
+	<string name="ot_my_task_title">项目模块进度更新</string>  
+	<string name="ot_my_task_message">是否更新进度</string>
+	<string name="the_progress_of_value">请输入进度值0-100</string>
+	<string name="ot_download">确定</string>
+	<string name="ot_my_task_related">项目模块详情</string>
+    <!-- 我的任务 -->
+    
+    <!-- ot_calssify_layout -->
+    <string name="ot_publish_time">发布时间</string>
+    <string name="ot_rmb_unit">￥</string>
+    <!--   ot_calssify_layout-->
+    
+    
+    <!-- 项目详情 -->
+    <string name="project_detail">项目详情</string>
+    <string name="download_tricker">资源下载</string>
+    <string name="start_download">开始下载</string>
+    <string name="yes_or_no">是否下载资源文件?</string>
+    <string name="download">下载</string>
+    <string name="cancle">取消</string>
+    <string name="download_success">文件下载完成!!!</string>
+    <!-- 项目详情 -->
+    
+    <!-- 项目模块 -->
+    <string name="project_modles">项目模块</string>
+    <string name="project_apply">项目承接</string>
+    <string name="apply_content">警告:你确定要承接这个项目模块吗?请注意!如果你不能在规定的时间完成项目,你将会受到违约处理.</string>
+    <string name="apply">承接</string>
+    <string name="user_applay_model_failure">用户承接模块失败</string>
+    <string name="ot_applied">该模块已被承接,不能被再次承接.</string>
+    <!--  -->
+    
+    <!-- 版本更新 -->
+    <string name="download_new_version">下载新版本</string>
+    <!-- 版本更新 -->
+    
+    <!-- 拨号 -->
+    <string name="bohao">拨号</string>
+    <!-- 拨号 -->
+    
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fourteen.outersource"
+    android:versionCode="9"
+    android:versionName="9.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+    <!-- 添加拨号权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+
+    <!-- 添加网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 添加访问SD卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="com.fourteen.outersource.provider.OTUserProvider"
+            android:authorities="com.fourteen.outersource.provider.OTUserProvider"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="com.fourteen.outersource.activity.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.crop.CropImageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.crop.CropImageMainAvtivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ChooserPictureTheme" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.stickylistheaders.StickyListViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.TestShape"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.TestUpload"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.RegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.ChooseAddressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.ModifyPasswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.ModifyQuestionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeModifyInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.ModifyInformationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeFeedbackActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeVerifyEmailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.ModifyHeadImageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserSkillHomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeAboutOtsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserSkillLeftExamActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserExamingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeUnsubscribeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.ForgetPasswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserLoginUnlockActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.project.activity.ProjectPublishActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.fileexplorer.FileExplorerMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.project.activity.GoagoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.project.activity.MyProjectsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.UserHomeRecommendActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.project.activity.ProjectDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.project.activity.ProjectModlesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.project.activity.ProjectModuleDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fourteen.outersource.activity.MyTaskActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

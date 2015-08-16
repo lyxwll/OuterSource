@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ot_thitle_classify"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadingEdge="none"
+    android:overScrollMode="never"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/ot_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/common_blue"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- <TextView
+            android:id="@+id/ot_text0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text0"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text4"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text5"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text6"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ot_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ot_back_selector"
+            android:gravity="center"
+            android:text="@string/ot_text7"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" /> -->
+    </LinearLayout>
+
+</HorizontalScrollView>

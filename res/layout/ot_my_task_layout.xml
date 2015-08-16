@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.fourteen.outersource.view.XListView
+        android:id="@+id/ot_my_task_Xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/divider_color"
+        android:dividerHeight="0.5dip"
+        android:listSelector="@drawable/list_item_selector" />
+    
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/add_skill_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/warning_background"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/add_skill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_margin="10dip"
+                            android:background="@drawable/button_selector"
+                            android:text="@string/user_add_skill"
+                            android:textColor="@color/button_text_color" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/header_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dip"
+                        android:paddingTop="10dip" >
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@string/user_skill_title_name" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@string/user_skill_title_addtime" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@string/user_skill_title_examtime" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@string/user_skill_title_score" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@string/user_skill_title_grade" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dip"
+                        android:background="@color/divider_color" />
+
+                    <TextView
+                        android:id="@+id/skill_notify"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip"
+                        android:text="@string/skill_notify"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </ScrollView>
+
+            <ListView
+                android:id="@+id/user_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/divider_color"
+                android:dividerHeight="0.5dip"
+                android:listSelector="@drawable/list_item_selector" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

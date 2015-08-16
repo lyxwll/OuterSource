@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_black_word">
+
+    <com.fourteen.outersource.crop.CropImageView
+        android:id="@+id/cropImg"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/button_selector"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/crop_save"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/button_selector"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/crop_cancel"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- letter list view -->
+    <declare-styleable name="StickyListHeadersListView">
+
+        <!-- View attributes -->
+        <attr name="android:clipToPadding" />
+        <attr name="android:scrollbars" />
+        <attr name="android:overScrollMode" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength" />
+        <!-- <attr name="android:requiresFadingEdge" /> -->
+        <attr name="android:cacheColorHint" />
+        <attr name="android:choiceMode" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:fastScrollEnabled" />
+        <!-- <attr name="android:fastScrollAlwaysVisible" /> -->
+        <attr name="android:listSelector" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:scrollbarStyle" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+
+        <!-- StickyListHeaders attributes -->
+        <attr name="hasStickyHeaders" format="boolean" />
+        <attr name="isDrawingListUnderStickyHeader" format="boolean" />
+    </declare-styleable>
+
+    <!-- for switch -->
+    <attr name="switchStyle" format="reference" />
+    <attr name="state_checked" format="boolean" />
+    <attr name="textAppearance" format="reference" />
+
+    <declare-styleable name="Switch">
+        <attr name="thumb" format="reference" />
+        <attr name="track" format="reference" />
+        <attr name="textOn" format="reference" />
+        <attr name="textOff" format="string|reference" />
+        <attr name="thumbTextPadding" format="dimension" />
+        <attr name="switchMinWidth" format="dimension" />
+        <attr name="switchPadding" format="dimension" />
+        <attr name="switchTextAppearance" format="reference" />
+        <attr name="switchTextOn" format="string" />
+        <attr name="switchTextOff" format="string" />
+    </declare-styleable>
+    <declare-styleable name="TextAppearance">
+        <attr name="textColor" format="reference|color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="typeface">
+            <enum name="normal" value="0" />
+            <enum name="sans" value="1" />
+            <enum name="serif" value="2" />
+            <enum name="monospace" value="3" />
+        </attr>
+        <attr name="textStyle">
+            <flag name="normal" value="0x00000000" />
+            <flag name="bold" value="0x00000001" />
+            <flag name="italic" value="0x00000002" />
+        </attr>
+    </declare-styleable>
+    <!-- for switch -->
+    
+</resources>

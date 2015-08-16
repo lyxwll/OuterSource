@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </FrameLayout>
+
+    <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:background="@color/warning_background"
+        android:padding="10dip"
+        android:text="@string/modify_question" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/edittext_selector"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/user_name" />
+
+                <EditText
+                    android:id="@+id/user_edit"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/edittext_selector"
+                    android:hint="@string/login_input_username"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/user_password"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/edittext_selector"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/user_password" />
+
+                <EditText
+                    android:id="@+id/user_edit1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/edittext_selector"
+                    android:hint="@string/login_input_username1"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/register_question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/register_question1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/register_answer1"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/register_question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/register_question2"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/register_answer2"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/register_question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/register_question3"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edittext_selector"
+                android:hint="@string/register_answer3"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/find_password_back"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/button_selector"
+                    android:text="@string/find_password_back" />
+
+                <Button
+                    android:id="@+id/find_password_next"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/button_selector"
+                    android:text="@string/find_password_next" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView> -->
+
+</LinearLayout>

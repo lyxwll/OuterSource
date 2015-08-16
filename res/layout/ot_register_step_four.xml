@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:background="@color/warning_background"
+        android:padding="10dip"
+        android:text="@string/register_step_four_notify" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/register_image"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:contentDescription="@string/register_image"
+                android:scaleType="fitXY"
+                android:src="@drawable/ot_upload_header_image" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/progress_drawable"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/upload_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/register_upload_image" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

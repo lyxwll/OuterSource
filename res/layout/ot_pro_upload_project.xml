@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/warning_background"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dip"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:id="@+id/list_textview"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dip"
+                        android:layout_weight="0.5"
+                        android:gravity="center_vertical"
+                        android:text="@string/ot_project_related" />
+
+                    <Button
+                        android:id="@+id/ot_upload_the_project"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/button_selector"
+                        android:text="@string/ot_upload_the_project"
+                        android:textColor="@color/button_text_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/test_shape"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/left_top_right_top"
+                        android:minHeight="30dip"
+                        android:orientation="horizontal"
+                        android:padding="3dip" >
+
+                        <TextView
+                            android:id="@+id/pro_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/app_name"
+                            android:textColor="@color/common_white" />
+                    </LinearLayout>
+
+                    <!-- android:background="@drawable/project_selector" -->
+
+                    <LinearLayout
+                        android:id="@+id/ot_content_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="3dip" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/start_time" />
+
+                            <TextView
+                                android:id="@+id/pro_start_time"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="2015-01-10" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/start_time" />
+
+                            <TextView
+                                android:id="@+id/pro_end_time"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="2015-01-26" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="3dip" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pro_price" />
+
+                            <TextView
+                                android:id="@+id/pro_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:singleLine="true"
+                                android:text="23450" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/price_unit" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dip"
+                                android:background="@color/divider_color"
+                                android:clickable="true"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dip"
+                                    android:text="@string/pro_gress" />
+
+                                <TextView
+                                    android:id="@+id/pro_gress_number"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dip"
+                                    android:text="10" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="3dip"
+                                    android:text="@string/progress_unit" />
+                            </LinearLayout>
+
+                            <ProgressBar
+                                android:id="@+id/pro_gress"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="100"
+                                android:padding="3dip"
+                                android:progress="10"
+                                android:progressDrawable="@drawable/progress_drawable" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dip"
+                            android:background="@color/divider_color"
+                            android:padding="3dip"
+                            android:text="@string/pro_desc" />
+
+                        <TextView
+                            android:id="@+id/pro_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dip"
+                            android:padding="3dip"
+                            android:text="@string/exam_left_notify" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/project_file_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="@color/transparent"
+                    android:divider="@color/divider_color"
+                    android:dividerHeight="0.5dip"
+                    android:listSelector="@null" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.fourteen.outersource.view.HeaderView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/warning_background"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/last_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_selector"
+            android:text="@string/last_question"
+            android:textColor="@color/button_text_color" />
+
+        <Button
+            android:id="@+id/next_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_selector"
+            android:text="@string/next_question"
+            android:textColor="@color/button_text_color" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_view"
+        android:background="@color/common_grey_background"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/submit_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector"
+            android:text="@string/submit_exam"
+            android:textColor="@color/button_text_color" />
+
+        <TextView
+            android:id="@+id/time_left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/time_left" />
+
+        <TextView
+            android:id="@+id/left_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/init_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_panel"
+        android:layout_below="@id/top_panel"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/init_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/question_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_panel"
+        android:layout_below="@id/top_panel"
+        android:visibility="gone" >
+    </FrameLayout>
+
+</RelativeLayout>

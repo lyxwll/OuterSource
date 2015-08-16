@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip"
+    >
+    
+    <ImageView
+        android:id="@+id/file_type_icon"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:src="@drawable/file_empty_folder"
+        android:contentDescription="@string/file_description"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:gravity="center"
+        android:minLines="2"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_marginBottom="3dip"/>
+</LinearLayout>

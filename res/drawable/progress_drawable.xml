@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/common_white" />
+
+            <corners android:radius="5dip" />
+
+            <stroke
+                android:width="0.5dp"
+                android:color="@color/common_grey_word" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid  android:color="@color/common_border"/>
+                <corners android:radius="5dip" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/common_blue"/>
+                <corners android:radius="5dip" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
